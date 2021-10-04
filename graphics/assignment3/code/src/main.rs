@@ -375,9 +375,16 @@ fn main() {
                 helicopter_tail_rotor_node.rotation.x += delta_time * 20.0;
                 
                 let animation = simple_heading_animation(elapsed);
+                helicopter_body_node.position.z = animation.roll * 20.0;
+                helicopter_body_node.rotation.x = delta_time * 2.0;
+                helicopter_body_node.rotation.x = animation.pitch * 0.4;
+                helicopter_body_node.rotation.z = animation.roll * 20.0;
+                helicopter_body_node.position.y = animation.roll;
+                helicopter_body_node.position.y = 15.0;
+                //helicopter_body_node.position.z += animation.yaw;
                 //helicopter_body_node.position.x += animation.yaw;
-                helicopter_body_node.position.z += animation.roll;
-                helicopter_body_node.position.x += animation.roll;
+                //helicopter_body_node.rotation.y += animation.x*0.01;
+
 
                 //helicopter_body_node.position.z += animation.z;
                 
