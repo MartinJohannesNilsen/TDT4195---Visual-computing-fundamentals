@@ -1,0 +1,11 @@
+C:\Users\Martin\Documents\TDT4195 - Grunnleggende visuell databehandling\graphics\assignment3\code\target\debug\deps\approx-9ba03103bacdb009.rmeta: C:\Users\Martin\.cargo\registry\src\github.com-1ecc6299db9ec823\approx-0.5.0\src\lib.rs C:\Users\Martin\.cargo\registry\src\github.com-1ecc6299db9ec823\approx-0.5.0\src\abs_diff_eq.rs C:\Users\Martin\.cargo\registry\src\github.com-1ecc6299db9ec823\approx-0.5.0\src\relative_eq.rs C:\Users\Martin\.cargo\registry\src\github.com-1ecc6299db9ec823\approx-0.5.0\src\ulps_eq.rs C:\Users\Martin\.cargo\registry\src\github.com-1ecc6299db9ec823\approx-0.5.0\src\macros.rs
+
+C:\Users\Martin\Documents\TDT4195 - Grunnleggende visuell databehandling\graphics\assignment3\code\target\debug\deps\libapprox-9ba03103bacdb009.rlib: C:\Users\Martin\.cargo\registry\src\github.com-1ecc6299db9ec823\approx-0.5.0\src\lib.rs C:\Users\Martin\.cargo\registry\src\github.com-1ecc6299db9ec823\approx-0.5.0\src\abs_diff_eq.rs C:\Users\Martin\.cargo\registry\src\github.com-1ecc6299db9ec823\approx-0.5.0\src\relative_eq.rs C:\Users\Martin\.cargo\registry\src\github.com-1ecc6299db9ec823\approx-0.5.0\src\ulps_eq.rs C:\Users\Martin\.cargo\registry\src\github.com-1ecc6299db9ec823\approx-0.5.0\src\macros.rs
+
+C:\Users\Martin\Documents\TDT4195 - Grunnleggende visuell databehandling\graphics\assignment3\code\target\debug\deps\approx-9ba03103bacdb009.d: C:\Users\Martin\.cargo\registry\src\github.com-1ecc6299db9ec823\approx-0.5.0\src\lib.rs C:\Users\Martin\.cargo\registry\src\github.com-1ecc6299db9ec823\approx-0.5.0\src\abs_diff_eq.rs C:\Users\Martin\.cargo\registry\src\github.com-1ecc6299db9ec823\approx-0.5.0\src\relative_eq.rs C:\Users\Martin\.cargo\registry\src\github.com-1ecc6299db9ec823\approx-0.5.0\src\ulps_eq.rs C:\Users\Martin\.cargo\registry\src\github.com-1ecc6299db9ec823\approx-0.5.0\src\macros.rs
+
+C:\Users\Martin\.cargo\registry\src\github.com-1ecc6299db9ec823\approx-0.5.0\src\lib.rs:
+C:\Users\Martin\.cargo\registry\src\github.com-1ecc6299db9ec823\approx-0.5.0\src\abs_diff_eq.rs:
+C:\Users\Martin\.cargo\registry\src\github.com-1ecc6299db9ec823\approx-0.5.0\src\relative_eq.rs:
+C:\Users\Martin\.cargo\registry\src\github.com-1ecc6299db9ec823\approx-0.5.0\src\ulps_eq.rs:
+C:\Users\Martin\.cargo\registry\src\github.com-1ecc6299db9ec823\approx-0.5.0\src\macros.rs:
