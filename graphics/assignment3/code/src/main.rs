@@ -250,6 +250,7 @@ fn main() {
         let mut helicopter_body_nodes: Vec<scene_graph::Node> = Vec::new();
         let mut helicopter_tail_rotor_nodes: Vec<scene_graph::Node> = Vec::new();
         let mut helicopter_main_rotor_nodes: Vec<scene_graph::Node> = Vec::new();
+        
         for n in 0..5 {
             //Create VAO of parts of helicopter
             let helicopter_body_vao = unsafe { create_vao(&helicopter.body.vertices, &helicopter.body.indices, &helicopter.body.colors, &helicopter.body.normals) };
