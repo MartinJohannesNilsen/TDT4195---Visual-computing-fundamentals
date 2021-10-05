@@ -12,7 +12,7 @@ uniform layout(location=6) mat4 normal_transformation;
 
 void main()
 {
-    gl_Position = transform_matrix * vec4(position, 1.0f);
     vertex_color = color;
-    vertex_normal = normal;
+    gl_Position = transform_matrix * vec4(position, 1.0f);
+    vertex_normal = normalize(mat3(normal_transformation) * normal);
 }
