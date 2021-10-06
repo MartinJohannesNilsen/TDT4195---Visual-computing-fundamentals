@@ -250,8 +250,9 @@ fn main() {
         let mut helicopter_body_nodes: Vec<scene_graph::Node> = Vec::new();
         let mut helicopter_tail_rotor_nodes: Vec<scene_graph::Node> = Vec::new();
         let mut helicopter_main_rotor_nodes: Vec<scene_graph::Node> = Vec::new();
-        
-        for n in 0..5 {
+        let n_helicopters = 5;
+
+        for n in 0..n_helicopters {
             //Create VAO of parts of helicopter
             let helicopter_body_vao = unsafe { create_vao(&helicopter.body.vertices, &helicopter.body.indices, &helicopter.body.colors, &helicopter.body.normals) };
             let helicopter_main_vao = unsafe { create_vao(&helicopter.main_rotor.vertices, &helicopter.main_rotor.indices, &helicopter.main_rotor.colors, &helicopter.main_rotor.normals) };
@@ -392,7 +393,7 @@ fn main() {
                 let transform_matrix: glm::Mat4 = perspective_transform * rotate_y * rotate_x * translate;
                 
                 // Modify scene graph and animate
-                for i in 0..5 {
+                for i in 0..helicopter_body_nodes.len() {
                     helicopter_main_rotor_nodes[i].rotation.y += delta_time * 20.0;
                     helicopter_tail_rotor_nodes[i].rotation.x += delta_time * 20.0;
                     let animation = simple_heading_animation(elapsed + 0.8 * i as f32);
